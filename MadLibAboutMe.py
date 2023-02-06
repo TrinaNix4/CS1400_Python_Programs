@@ -1,0 +1,10 @@
+# ask for user input and save to variables
+name = input("What is your first and last name?")
+hobby = input("What is a favorite hobby you enjoy?")
+adjective = input("Enter an adjective.")
+love = input("What is something you love?")
+hate = input("What is something you hate?")
+personalityTrait1 = input("Enter a personality trait.")
+personalityTrait2 = input("Enter another personality trait.")
+philosophy = input("Enter a personal philosophy.")
+feeling = input("Enter a feeling.")
