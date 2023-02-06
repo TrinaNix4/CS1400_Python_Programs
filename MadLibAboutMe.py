@@ -1,4 +1,4 @@
-# ask for user input and save to named variables
+# ask for user input and save the input to named variables
 name = input("Enter your first and last name: ")
 hobby = input("Enter a favorite hobby: ")
 adjective = input("Enter an adjective: ")
