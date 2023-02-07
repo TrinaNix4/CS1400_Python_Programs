@@ -39,9 +39,12 @@
   - identity (unique identifier)
 
 * Casting
+
   - in the program a variable can be cast as a different data type temporarily
   - age = 35
     - cast age as a string
       - print('My age is:' + str(age))
     - cast age as a float
       - float(age)
+
+* doesn't change the data type in memory, just temporarily casts it as a float
