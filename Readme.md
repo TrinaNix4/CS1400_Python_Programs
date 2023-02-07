@@ -48,3 +48,26 @@
       - float(age)
 
 * doesn't change the data type in memory, just temporarily casts it as a float
+
+# Arithmetic Operators
+
+- Addition + (also concatenation)
+- Subtraction -
+- Multiplication \*
+- Division /
+- Integer Division //
+- Modulus Division (finds the remainder of the answer) %
+- Power of \*\*
+
+# integer division
+
+- a whole number divided by a whole number
+- no decimals
+  e.g.
+- how many groups of 2 can you make with 7 people?
+  - 7//2 = 3
+
+# Modulus Division
+
+- given 7 people, if they are divided into groups of two, how many would be left out?
+- 7 % 2 = 1 ("7 modulo 2")
