@@ -11,3 +11,8 @@ name = "Trina Nixon"
 active = True
 
 # all data types are inferred, don't have to specify what they are
+
+
+age = float(input("What is your age?"))
+print(age)
+print(int(age))
