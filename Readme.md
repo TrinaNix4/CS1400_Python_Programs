@@ -71,3 +71,25 @@
 
 - given 7 people, if they are divided into groups of two, how many would be left out?
 - 7 % 2 = 1 ("7 modulo 2")
+
+# Practice Example
+
+```
+#print("The Answer is: " + str(40 + 2))
+#print(str(4) + str(2) + ": Life, the universe and everything" )
+#print("PI: " + str(float(3.14159)))
+#print("PI: " + str(int(3.14159)))
+#print("Int Division " + str(int(10 / 4 )))
+#print("Int Division " + str(10 // 4))
+#print("Floating Point Division " + str(10.0 / 4))
+#print("Type Casting as float " + str(float(10 / 4)))
+#print("Type Casting as int " + str(int(10.5 / 4 )))
+#print("Mod: " + str(17 % 3 ))
+#print("Order of Operations " + str(2 + 5 / 3 ))
+#print("Order of Operations  " + str(( 2 + 5 ) / 3 ));
+print("Order Matters " + str(int( 1.9) + int(1.9 )));
+print("Order Matters " + str(int( 1.9 + 1.9 )));
+print("Order and Data Type Matter " + str(1.9 + 1.9 ));
+print("Rounding: " + str(round(1.9 + 1.9, 0)));
+
+```
