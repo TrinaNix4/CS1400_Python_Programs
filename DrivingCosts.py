@@ -2,8 +2,10 @@
 print("Welcome to the Driving Cost Calculator. I will calculate the cost of driving from Weber State University to 3 cities of your choice. Let's get started!")
 
 # user input
-carMilesPerGallon = input("How many miles per gallon does your car get? \n")
-currCostOfGas = input("What is the current cost of gas per gallon? \n")
+carMilesPerGallon = input(
+    "How many miles per gallon does your car get? \n")
+currCostOfGas = float(input(
+    "What is the current cost of gas per gallon? \n"))
 
 # user input - first city
 city1 = input(
