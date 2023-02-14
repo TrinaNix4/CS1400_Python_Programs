@@ -152,3 +152,30 @@ No, the answer comes back as 0, but should be 10.28.
 The '//' is used for floor division which rounds down to the nearest whole number so in this case 5/9 = 0.55 which is being rounded down to 0. So 5 // 9 >> 0 and 5 / 9 = 0.55 9. Fix the error in the code and run the program a few more times to test it out.
 
 Just change the floor division to regular division. 5 // 9 >> 5 / 9.
+
+# Lecture Notes
+
+- Power supply - provided power to different areas of computer
+- Main board/motherboard – processing device; printed circuit board; houses peripherals like video card and network card
+
+- Processor - brain of the computer; does all mathematical; sits on the motherboard; the CPU
+  Interprets and executes instructions; manages - input, output, and storage devices
+
+- RAM - random access memory; temporary memory; stores data while power on; no longer have access once power is off
+
+- Expansion slots -
+
+- Video card - connects computer to the monitor; circuit board attached to the motherboard
+
+- Network card - a circuit board that connects the computer to the rest of the network usually using special cables
+
+- Hard drive - long term storage; can have SATA vs SSD;
+
+# Hard drive sizes -
+
+- terabyte = 1024 GB;
+- GigaByte = 1024 megabytes
+- Megabyte = 1024 kilobytes
+- Kilobytes = 1024 bytes
+- Byte = 8 bits
+- Bit = 1 or 0
