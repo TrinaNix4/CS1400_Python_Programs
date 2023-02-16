@@ -188,3 +188,35 @@ keep track of a value
 - subtract from value
 
 * = assignment operator that assigns the value of the left side to the value of the right side
+
+# increments operators
+
+=+ add to
+-= subtract from
+\*= multiply by
+/= divide by
+
+- counter or accumulator - any time you are taking a variable and doing something to it and storing it back into itself
+
+# example
+
+- incrementors: Counters
+  keep track of a score
+
+```
+score = 0
+print('Score: ", score)
+
+#wins 1
+score = score + 1
+print("Score: ", score)
+
+#wins 5
+score = score + 5
+print("Score: ", score)
+
+#loses 1
+score = score - 1
+print("Score: ", score)
+
+```
