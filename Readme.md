@@ -220,3 +220,16 @@ score = score - 1
 print("Score: ", score)
 
 ```
+
+# Operators
+
+- allow us to compare 2 things
+
+* > greater than
+* < less than
+* == compare equal
+* != compare not equal
+* <= greater than equal
+* > = less than equal
+
+# if statement
