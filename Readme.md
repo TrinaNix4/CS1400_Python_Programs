@@ -241,3 +241,34 @@ print("Score: ", score)
 if(force < 10):
   print("Jedi Hopeful")
 ```
+
+colon and tabs specify what is in the 'if' statement
+
+# Else
+
+- executes when conditions are not true
+
+# Elif: Else if
+
+- runs the first true statement
+
+```
+if(force < 10):
+  print("Jedi Hopeful")
+
+elif (force < 25):
+  print("Jedi Padawan")
+elif (force < 50):
+  print("Jedi Master")
+else:
+  print("Jedi Knight")
+
+```
+
+- in above example, if force = 15; it will check the first and skip because not true,
+  check the 2nd and print "Jedi Padawan" because it is true and won't bother going on to check the rest.
+
+# Combining Boolean Operators
+
+- Or - returns true if one statement is true
+- And - returns true if all statements are true
