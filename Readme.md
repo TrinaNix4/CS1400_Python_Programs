@@ -225,11 +225,19 @@ print("Score: ", score)
 
 - allow us to compare 2 things
 
-* > greater than
+* '> greater than'
 * < less than
 * == compare equal
 * != compare not equal
 * <= greater than equal
-* > = less than equal
+* '> = less than equal'
 
 # if statement
+
+- executes statements if expression is true
+- skips statements if expression is false
+
+```
+if(force < 10):
+  print("Jedi Hopeful")
+```
