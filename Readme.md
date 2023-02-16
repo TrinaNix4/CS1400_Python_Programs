@@ -179,3 +179,12 @@ Just change the floor division to regular division. 5 // 9 >> 5 / 9.
 - Kilobytes = 1024 bytes
 - Byte = 8 bits
 - Bit = 1 or 0
+
+# Incrementors: Counters
+
+keep track of a value
+
+- add to value
+- subtract from value
+
+* = assignment operator that assigns the value of the left side to the value of the right side
