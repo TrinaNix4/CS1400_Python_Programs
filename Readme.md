@@ -272,3 +272,21 @@ else:
 
 - Or - returns true if one statement is true
 - And - returns true if all statements are true
+
+# And
+
+- both statements must be true to execute
+
+```
+import random
+die1 = random.randrange(1, 7)
+die 2 = random.randrange(1, 7)
+
+if die1 == 1 and die2 == 1:
+  print("Snake Eyes!")
+
+```
+
+# Or
+
+only one statement must be true to evaluate to true
