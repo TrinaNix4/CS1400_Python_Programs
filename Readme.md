@@ -290,3 +290,29 @@ if die1 == 1 and die2 == 1:
 # Or
 
 only one statement must be true to evaluate to true
+
+Decimal Base 10
+
+1's place - 10^0 - 1
+10's place - 10^1 - 10
+100's place - 10^2 - 100
+
+# Binary Numbers
+
+1011 0011
+
+- bit - binary digit
+- byte: a group of 8 bits
+- 1 character - 1 byte of information
+
+1 - 128
+0 - 64
+1 - 32
+1 - 16
+0 - 8
+0 - 4
+1 - 2
+1 - 1
+
+find the 1's in the binary number and add them
+so: 128 + 32 + 16 + 2 + 1 = 179
