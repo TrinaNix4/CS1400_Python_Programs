@@ -316,3 +316,69 @@ Decimal Base 10
 
 find the 1's in the binary number and add them
 so: 128 + 32 + 16 + 2 + 1 = 179
+
+- example
+  01011011
+  0 - 128
+  1 - 64
+  0 - 32
+  1 - 16
+  1 - 8
+  0 - 4
+  1 - 2
+  1 - 1
+
+64 + 16 + 8 + 2 + 1 = 91
+
+- can drop 0's on the left hand side
+
+* example 2
+  given 37:
+  128 - 0
+  64 - 0
+  32 - 1 so at this point subtract 32 from given number(37) which equals 5; now compare this with place value
+  16 - 0
+  8 - 0
+  4 - 1 -> so 5 - 4 = 1
+  2 - 0
+  1 - 1 (if number is larger then 1, made a mistake)
+
+* put a 0 if the given number is smaller than the place value
+* put a 1 if it's larger or equal
+
+# Convert to Binary
+
+given 29:
+128 - 0
+64 - 0
+32 - 0
+16 - 1 subtract 16 from given number (29)= 13
+8 - 1 subtract 8 from 13 = 5
+4 - 1 subtract 4 from 5 = 1
+2 - 0
+1 - 1
+
+- answer = 0001 1101
+
+* Binary - literal representation of how data is stored on a computer
+
+* Hexadecimal Base 16
+  given the number 5C in hex, what is the number in decimal?
+
+base 16 is:
+16^0 - 1
+16^1 = 16
+(5 \* 16) + C = (80) + 12 = 92
+
+give 2B in hex, convert to decimal
+(2 \* 16) + B = 32 + 11 = 43
+
+2B = 43
+
+convert decimal to hex:
+given 58:
+
+58 / 16 = 3 r 10
+so 3A
+
+# OCT base 8 (not required for test)
