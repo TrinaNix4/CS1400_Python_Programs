@@ -429,3 +429,30 @@ D = 13
 all the characters are one byte of info so h-e-l-l-o in a .txt file would be 5 bytes in size
 
 # Images
+
+- Pixel - picture element; basic unit of color on a computer display
+
+each pixel has a value -
+
+# RGB Color Code
+
+red gree blue (RGB)
+each color is a number between 0-255
+represents how much of each color
+RGB (255, 255, 255) = FFFFFF (FF(red), FF(green), FF(blue))
+
+3 bytes of infomation to make up the color code per pixel; (ff, 00, 00) (red)
+
+# Zipped Folders
+
+- combines files and folders into a single finle
+- compresses the information
+
+# Sound representation
+
+sound is variations of pressure in a medium
+represented with waves
+
+higher the sound wave - the louder
+
+sampled sound wave - when digitizing the information, losing a little bit of original sound wave because storing it in 1's and 0's.
