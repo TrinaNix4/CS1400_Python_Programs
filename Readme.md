@@ -370,15 +370,53 @@ base 16 is:
 16^1 = 16
 (5 \* 16) + C = (80) + 12 = 92
 
+# Hex to decimal
+
 give 2B in hex, convert to decimal
 (2 \* 16) + B = 32 + 11 = 43
 
 2B = 43
 
-convert decimal to hex:
+# convert decimal to hex:
+
 given 58:
 
 58 / 16 = 3 r 10
 so 3A
 
-# OCT base 8 (not required for test)
+# Binary to Hex
+
+0 - 8
+0 - 4
+1 - 2
+1 - 1
+
+so 3
+
+1 - 8
+0 - 4
+1 - 2
+1 - 1
+
+3B
+
+# Hex to Binary
+
+ED:
+
+split into 2 digits and cnovert separately
+
+E = 14
+8 1 (14 is greater than 8) 14-8=6
+4 1 (6 is greater than 4) 6 - 4 = 2
+2 1 (2 is equal to 2) 2-2=0
+1 0 (0 is smaller than 1 )
+
+D = 13
+8 1 (13 is greater than 8) 13-8 = 5
+4 1 (5 is greater than 4) 5 - 4 = 1
+2 0 (1 is less than 2)
+1 1
+`1110 1101 = ED
+
+# Adding in Binary
