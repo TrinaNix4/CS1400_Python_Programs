@@ -420,3 +420,12 @@ D = 13
 `1110 1101 = ED
 
 # Adding in Binary
+
+# ASCII Code
+
+- code for representing characters on a keyboard
+- American Standard Code for Information Interchange
+
+all the characters are one byte of info so h-e-l-l-o in a .txt file would be 5 bytes in size
+
+# Images
