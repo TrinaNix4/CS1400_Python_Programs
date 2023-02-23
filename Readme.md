@@ -456,3 +456,9 @@ represented with waves
 higher the sound wave - the louder
 
 sampled sound wave - when digitizing the information, losing a little bit of original sound wave because storing it in 1's and 0's.
+
+# Loops
+
+- repeat segments of code
+  - for loop: iterates a certain number of times
+  - while loop: iterates while a condition is true
