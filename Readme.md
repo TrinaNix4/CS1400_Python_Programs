@@ -462,3 +462,23 @@ sampled sound wave - when digitizing the information, losing a little bit of ori
 - repeat segments of code
   - for loop: iterates a certain number of times
   - while loop: iterates while a condition is true
+
+# For loop
+
+- use when you know the number of iterations
+- negative value for the change when you want to count backwards
+
+```
+for i in range(2, 12, 3)
+  print(i)
+
+for i in range(5, 1, -1)
+  print(i)
+
+```
+
+- above code will start at 2, go up to but not including 12, then count by 3's.
+  and
+  the 2nd one will print out '5, 4, 3, 2' stops short of 1 because it doesn't include the number
+
+# While Loop
