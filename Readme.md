@@ -482,3 +482,13 @@ for i in range(5, 1, -1)
   the 2nd one will print out '5, 4, 3, 2' stops short of 1 because it doesn't include the number
 
 # While Loop
+
+- iterates while a condition is true
+
+```
+num = int(input("Enter a number greater than 10"))
+while num <= 10:
+  num = int(input("Enter a number that is greater than 10"))
+print(num, "is greater than 10")
+
+```
