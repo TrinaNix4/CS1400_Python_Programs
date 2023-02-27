@@ -571,5 +571,31 @@ print(num, "is greater than 10")
 
 - push() adds an element to the top of the stack
 - pop() removes the element from the top of the stack
+- a single pointer that keeps track of the top of the stack
 
 - last element to be added to the stack is the first to be removed
+
+# Queue
+
+- linear data structure
+
+- FIFO - first-in, first out; elements stored in a queue with 2 main functions
+
+  - enqueue - add items to back of queue
+  - dequeue - remove from the front of the queue
+
+- first element to be added is the first to be removed, and last element to be added is the last to be removed
+
+- good for tasks that must be processed in order
+
+# Linked list
+
+- linear data structure in which each element, or node, contains a value and a pointer to the next node in the list. The last node points to a null value to indicate the end of the list
+
+- advantages
+  - dynamic in size; nodes can be added or removed from the list at any time; small pieces of memory instead of one big chunk of data like an array has.
+  - ideal for situations where the size of the data is not known in advance, or size of data may change frequently (adding or deleting data)
+
+* efficient insertion and deletion operations; just change the pointers
+* disadvantages - slower random access time than arrays to access a node at a specific index
+* require additional memory for storing the pointers
