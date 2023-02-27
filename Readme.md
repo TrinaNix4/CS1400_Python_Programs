@@ -542,3 +542,23 @@ print(num, "is greater than 10")
   - Assume that the following values are to be added to a binary tree. What would the tree look like?
 
   * Click on the image to select it, then click “Edit” to change the text in the image. Data: 67, 10, 34, 8, 11, 44, 74, 94, 99, 70, 68
+
+# Array
+
+- a collection of elements, where each element is id'ed by an index.
+
+- elements are stored in contiguous memory locations, making it easy to access them; stored right next to each other in memory
+
+- data can be accessed using an index; e.g. fruit[2]="mango" finds the value in position 2 and assigns it 'mango'
+
+- advantages
+
+  - constant-time access to any element in the array
+  - efficient insertion and deletion if elements are added at the beginning and end of the array
+
+  * disadvantages
+    - have a fixed size;
+
+* if given a list size of 5:
+  - upper bound is 4
+  - lower bound is 0
