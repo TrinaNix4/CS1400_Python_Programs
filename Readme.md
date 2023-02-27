@@ -513,7 +513,18 @@ print(num, "is greater than 10")
 
 # Linked List
 
-What is a Linked List? Non-contiguous memory locations.
-What are the elements of a linked list called? Node
-What are the two parts to a node? Stores the data to be stored and the memory location of the next node, which is storing the next piece of data in the list, and the memory location of the next one, and so on until the last item in the list, which has NULL for the memory location.
-What are some advantages of using a linked list?Very easy to add information to the list by just changing the pointers - set the pointer of the new Node to the following location, and set the pointer of the previous node to the new node. Also easy to remove nodes. Has a dynamic size. Small pieces throughout memory.
+- What is a Linked List?
+
+* Non-contiguous memory locations.
+
+- What are the elements of a linked list called?
+
+* Node
+
+- What are the two parts to a node?
+
+* Stores the data to be stored and the memory location of the next node, which is storing the next piece of data in the list, and the memory location of the next one, and so on until the last item in the list, which has NULL for the memory location.
+
+- What are some advantages of using a linked list?
+
+* Very easy to add information to the list by just changing the pointers - set the pointer of the new Node to the following location, and set the pointer of the previous node to the new node. Also easy to remove nodes. Has a dynamic size. Small pieces throughout memory.
