@@ -611,3 +611,19 @@ print(num, "is greater than 10")
 - root node is the topmost and has no parent;
 
 e.g. file systems on a computer
+
+# Binary Search Tree
+
+- each node has at most 2 child nodes, referred to as the left child and right child.
+
+- the value of the left child is always less than the value of the parent node
+
+- value of the right child is always more than the value of the parent node
+
+- each node contains a value, a left child node, and a right child node
+
+- topmost node called the root node;
+
+- efficient search,insertion, deletion operations if it's a balanced tree
+
+- used to represent ordered data like in phone books, dictionaries, and file systems
