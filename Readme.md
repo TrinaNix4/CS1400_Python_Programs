@@ -599,3 +599,15 @@ print(num, "is greater than 10")
 * efficient insertion and deletion operations; just change the pointers
 * disadvantages - slower random access time than arrays to access a node at a specific index
 * require additional memory for storing the pointers
+
+# Tree
+
+- a heirarchical structure consisting of nodes - a root node, and the root node might have links to several different places.
+
+- heirarchical structure with a root, nodes, and children.
+
+- each node may have zero or more child nodes and except for the root node, each node has exactly one parent node.
+
+- root node is the topmost and has no parent;
+
+e.g. file systems on a computer
