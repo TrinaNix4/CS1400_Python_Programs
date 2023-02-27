@@ -627,3 +627,35 @@ e.g. file systems on a computer
 - efficient search,insertion, deletion operations if it's a balanced tree
 
 - used to represent ordered data like in phone books, dictionaries, and file systems
+
+# Hash Table
+
+- used to store and retrieve data quickly and efficiently
+- can find data immediately
+- collection of key-value pairs where each key is unique and corresponds to a value
+
+- key is used to calculate a hash code, which is used to index into an array to find the corresponding value
+
+- implemented using a hash function - which take the key as input and generates a hash code, which is an integer that is used to index into the array; value is then stored at that index in the array; if the key is not found, the hash function is used to calculate a new index until the key is found or all possible indices have been checked
+
+- what is hashing?
+
+* gives a method to find items immediately e.g. using abingo card to find N44; hashing stores the data using an algorithm (hash function) and retrieves the data using the same hash function
+
+- what is modulus division?
+
+* ususally used to create the algorithm for a hash table;
+* finding the remainder of a division problem e.g. 15 % 4 = 3
+
+- e.g. where would the following data be stored in hashtable using the hash function n%7?
+  data: 40, 14, 24, 11, 20
+
+40/7 = r5
+14/7 = 2 r0 and so on..
+0 -14
+1
+2
+3 - 24
+4 - 11
+5 - 40
+6 - 20
