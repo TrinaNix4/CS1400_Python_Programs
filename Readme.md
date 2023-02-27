@@ -562,3 +562,14 @@ print(num, "is greater than 10")
 * if given a list size of 5:
   - upper bound is 4
   - lower bound is 0
+
+# Stack
+
+- linear data structure of elements in which operations are performed in a last-in, first-out (LIFO)
+
+- elements are stored in a stack, which is a list with 2 main operations, push and pop
+
+- push() adds an element to the top of the stack
+- pop() removes the element from the top of the stack
+
+- last element to be added to the stack is the first to be removed
