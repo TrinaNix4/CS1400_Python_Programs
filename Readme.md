@@ -650,12 +650,12 @@ e.g. file systems on a computer
 - e.g. where would the following data be stored in hashtable using the hash function n%7?
   data: 40, 14, 24, 11, 20
 
-40/7 = r5
-14/7 = 2 r0 and so on..
-0 -14
-1
-2
-3 - 24
-4 - 11
-5 - 40
-6 - 20
+- 40/7 = r5
+- 14/7 = 2 r0 and so on..
+- 0 -14
+- 1
+- 2
+- 3 - 24
+- 4 - 11
+- 5 - 40
+- 6 - 20
