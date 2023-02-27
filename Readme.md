@@ -492,3 +492,28 @@ while num <= 10:
 print(num, "is greater than 10")
 
 ```
+
+# Array
+
+- What is an array?
+
+* Simplest form of data structure. An array is basically just a list. The items in an array are stored right next to each other in memory.
+
+- Given a list size 5, what is the upper and lower bound of that list?
+
+* We start counting at 0 so the lower bound is 0. Upper bound is at 4.
+
+- What value is used to access each position in the list?
+
+* The index value can be used to access the items in the list. So fruit[2] = “mango”, finds the value in position 2 and assigns it “mango”.
+
+- Give an example of something that could be implemented with a 2d array.
+
+* Something that has rows and columns, for example, tic-tac-toe. Could create an array with 2 sets of brackets to indicate rows vs columns. For example, data = [ [2, 3, 3, 4], [4,7,3,8], [7,9,5,0] ]
+
+# Linked List
+
+What is a Linked List? Non-contiguous memory locations.
+What are the elements of a linked list called? Node
+What are the two parts to a node? Stores the data to be stored and the memory location of the next node, which is storing the next piece of data in the list, and the memory location of the next one, and so on until the last item in the list, which has NULL for the memory location.
+What are some advantages of using a linked list?Very easy to add information to the list by just changing the pointers - set the pointer of the new Node to the following location, and set the pointer of the previous node to the new node. Also easy to remove nodes. Has a dynamic size. Small pieces throughout memory.
