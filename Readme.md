@@ -528,3 +528,17 @@ print(num, "is greater than 10")
 - What are some advantages of using a linked list?
 
 * Very easy to add information to the list by just changing the pointers - set the pointer of the new Node to the following location, and set the pointer of the previous node to the new node. Also easy to remove nodes. Has a dynamic size. Small pieces throughout memory.
+
+# Trees
+
+- What is a tree structure?
+
+* Have a root node, and the root node might have links to several different places. It’s a hierarchical structure with a root, nodes, and children. For example, in a windows computer when you look at your stored files. C: drive opens up to all the folders within that drive, then the folders allow access to more folders within those.
+
+- What is a binary tree?
+
+* Every parent only has a maximum of 2 children. To search for a value, start at root, if value is bigger, go to the right. If it’s smaller, go to the left. Keep repeating this until you find the value. This is more efficient compared to a linked list where you just start at the beginning of the list and go through every value.
+
+  - Assume that the following values are to be added to a binary tree. What would the tree look like?
+
+  * Click on the image to select it, then click “Edit” to change the text in the image. Data: 67, 10, 34, 8, 11, 44, 74, 94, 99, 70, 68
