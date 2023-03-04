@@ -36,4 +36,17 @@
 3. drop less significant terms - we care when input is very large
 4. account for all input -
 
-   ![Notes](<O(n).png>)
+# O(n) - Linear Complexity
+
+- the operations performed in the algorithm grow 1-for-1 (linearly) as size of the input grows
+
+- ex. for loops
+
+```
+  - for (let i=0 i< input.length; i++) {
+    //do stuff
+  }
+
+```
+
+![Notes](<O(n).png>)
