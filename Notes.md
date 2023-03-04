@@ -35,4 +35,4 @@
 2. drop constants - just care about lineear time
 3. drop less significant terms - we care when input is very large
 4. account for all input -
-   ![](2023-03-04-14-38-24.png)
+   ![](2023-03-04-14-40-08.png)
