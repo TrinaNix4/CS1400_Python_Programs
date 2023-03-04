@@ -28,3 +28,11 @@
 * O(n^2) : operations required == n x n (nested loops)
 
 * time is the number of operations requried to execute an algorithm
+
+* 4 steps for calculating Big O
+
+1. worst case - given worst input, how will algorithm perform?
+2. drop constants - just care about lineear time
+3. drop less significant terms - we care when input is very large
+4. account for all input -
+   Screenshot 2023-03-04 at 2.10.14 PM.png
