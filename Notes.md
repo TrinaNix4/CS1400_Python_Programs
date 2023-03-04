@@ -19,3 +19,12 @@
 
 * big O objectively measures how an algorithm scales
 * scalability is directly related to input size and the number of operations as input size grows very large
+
+* n is the input size
+
+* big O is a measure of number operations based on a large size
+
+* O(n): operations required == input size (one loop)
+* O(n^2) : operations required == n x n (nested loops)
+
+* time is the number of operations requried to execute an algorithm
