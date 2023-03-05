@@ -50,3 +50,22 @@
 ```
 
 ![Notes](<O(n).png>)
+
+the number of operations is the same as the input size
+
+- O(n^2) Quadratic Complexity
+
+complexity grows as the square (n x n) of the input size
+
+e.g. nested loops
+
+```
+for (let i = 0; i < input.length; i++){
+  for (let j=0; j < input.length; j++) {
+    //do stuff
+  }
+}
+
+```
+
+![Notes](quadratic.png)
