@@ -38,6 +38,12 @@
 
 # O(n) - Linear Complexity
 
+- this happens when we iterate through our input data structure once (or sequentially). as long as we don't nest loops
+
+- if we have an input array with length 1,000,000 our for loop would iterate through one million items; simply means the operations required is the length of the input
+
+e.g. forEach, map, filter, reduce - all iterate through our input data structure once just like a for loop
+
 - the operations performed in the algorithm grow 1-for-1 (linearly) as size of the input grows
 
 - ex. for loops
@@ -53,7 +59,7 @@
 
 the number of operations is the same as the input size
 
-- O(n^2) Quadratic Complexity
+# O(n^2) Quadratic Complexity
 
 complexity grows as the square (n x n) of the input size
 
@@ -69,3 +75,12 @@ for (let i = 0; i < input.length; i++){
 ```
 
 ![Notes](quadratic.png)
+
+# Constant time O(1)
+
+- means we don't iterate through our data structure
+
+* the operations never increase regardless of how large the input is
+
+e.g.
+accessing a hash table by key, popping the last item of an array, or normal arithmetic
