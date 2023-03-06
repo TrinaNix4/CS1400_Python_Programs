@@ -84,3 +84,13 @@ for (let i = 0; i < input.length; i++){
 
 e.g.
 accessing a hash table by key, popping the last item of an array, or normal arithmetic
+
+# Arrays
+
+- a data structure used when you have a list of items and you want to iterate over them one by one or acccess them by index.
+
+- stored contiguously in memory
+
+- fast operations - add and remove from the end (push and pop) and access or update at an index
+
+- slow operations - insert and delete anywhere other than the end
