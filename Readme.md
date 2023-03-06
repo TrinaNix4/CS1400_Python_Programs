@@ -659,3 +659,42 @@ e.g. file systems on a computer
 - 4 - 11
 - 5 - 40
 - 6 - 20
+
+# Built-in Methods
+
+- functions and types that are always available
+
+* Round
+
+- rounds up or down;
+
+```
+num = 123.4567
+num = round(num, 2)
+print(num)
+
+```
+
+- Min Max
+
+* returns the min or max value
+
+```
+import math
+print (max(2, 5, 3, 7, 9))
+print (min(2, 5, 3, 7, 9))
+
+```
+
+- also works with text - alphabetically arranging strings
+
+- math.ceil(x) - returns the next smallest integer
+- math.floor(x) - returns the previous smallest integer
+- math.pow(x, y) returns x to the power of y
+- math.sqrt(x) - returns the square root of a number
+- math.isqrt(x) - return the square root integer
+- math.abs(x) - returns the postive integer
+- math.fabs(x) - returns the absolute value
+
+- math.max(x, y, ...) - returns the largest value
+- math.min(x, y, ...) - returns the smallest value
