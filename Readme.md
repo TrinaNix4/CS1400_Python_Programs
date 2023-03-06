@@ -698,3 +698,28 @@ print (min(2, 5, 3, 7, 9))
 
 - math.max(x, y, ...) - returns the largest value
 - math.min(x, y, ...) - returns the smallest value
+
+# Math library Usage
+
+- must import math to use these functions
+
+```
+import math
+
+num = 9
+print(math.pow(num, 3))
+
+```
+
+# Random library
+
+- import random
+- generates pseudo-random numbers
+
+```
+import random
+
+num = random.randrange(1, 5)
+print(num)
+
+```
