@@ -94,3 +94,15 @@ accessing a hash table by key, popping the last item of an array, or normal arit
 - fast operations - add and remove from the end (push and pop) and access or update at an index
 
 - slow operations - insert and delete anywhere other than the end
+
+* Pros
+
+- ordered - arrays are sequentially ordered and index the lcoation of items
+- fast lookups - you can get/set an item at an index constant O(1) time
+- fast push/pop - adding and removingthe last item is fast
+
+* Cons
+
+- slow insert/delete - inserting in the middle requires every item after it to be reindexed
+- slow searches - to find an item, we must iterate through the list which requires O(n) time
+- indexes are not flexible - an index only points to a location in the array but provides no other meaning about the item
