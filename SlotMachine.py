@@ -18,9 +18,9 @@ while tokens > 0:
         # decrement tokens the amount of bet the player plays
         tokens -= bet
         # chooses a random integer between 1 and 5
-        slot1 = random.randint(1, 5)
-        slot2 = random.randint(1, 5)
-        slot3 = random.randint(1, 5)
+        slot1 = random.randrange(1, 6)
+        slot2 = random.randrange(1, 6)
+        slot3 = random.randrange(1, 6)
     print("[", slot1, "][", slot2, "][", slot3, "]")
 # winning slots
     if slot1 == slot2 == slot3:
@@ -28,7 +28,7 @@ while tokens > 0:
         winTokens = math.pow(slot1, bet)
         # player wins tokens and the win is added to total
         tokens += winTokens
-        print("You win", int(winTokens), "tokens!")
+        print("***You win", int(winTokens), "tokens!***")
     else:
         print("You lose", bet, "tokens.")
     print("Tokens: ", int(tokens))
