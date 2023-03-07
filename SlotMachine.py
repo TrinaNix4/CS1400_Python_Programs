@@ -6,7 +6,7 @@ print("Trina's Slot Machine")
 tokens = int(
     input("Please enter the number of tokens you want to start with: "))
 
-# need a loop that continues until player cashes out or runs out of tokens
+# loop that continues until player cashes out or runs out of tokens
 while tokens > 0:
     bet = int(input(
         "You can bet 1, 2, or 3 tokens. How much would you like to bet? (enter 4 to cash out): "))
@@ -17,13 +17,14 @@ while tokens > 0:
     elif bet == 1 or bet == 2 or bet == 3:
         # decrement tokens the amount of bet the player plays
         tokens -= bet
+        # chooses a random integer between 1 and 5
         slot1 = random.randint(1, 5)
         slot2 = random.randint(1, 5)
         slot3 = random.randint(1, 5)
     print("[", slot1, "][", slot2, "][", slot3, "]")
-
+# winning slots
     if slot1 == slot2 == slot3:
-        # the number they rolled to the power of their bet
+        # winnings = the number they rolled to the power of their bet
         winTokens = math.pow(slot1, bet)
         # player wins tokens and the win is added to total
         tokens += winTokens
