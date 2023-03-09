@@ -768,3 +768,45 @@ print(txt)
 He replied, "Who's there?"
 
 # Strings Case
+
+```
+word = input("Enter a word: ")
+print("Upper Case:", word.upper())
+print("Lower Case", word.lower())
+
+```
+
+=> Enter a word: Perpendicular
+Upper Case: PERPENDICULAR
+Lower Case: perpendicular
+
+# String find
+
+- returns the position of whatever it is you're looking for
+
+```
+txt = "Come and clean the chaos in your closet"
+pos = txt.find("c")
+print(pos)
+
+```
+
+=> 9
+
+- case sensitive and counts spaces as 1
+
+If you want to find the 2nd instance: add one to variable; start search at char 10
+
+```
+txt = "Come and clean the chaos in your closet"
+pos = txt.find("c")
+print(pos)
+
+#start search at char 10 (cause pos is char 9 from code above)
+pos = pos + 1
+pos = txt.find("c", pos)
+print(pos)
+
+```
+
+# String replace
