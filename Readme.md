@@ -810,3 +810,44 @@ print(pos)
 ```
 
 # String replace
+
+- finds any instances of c, and replaces it with k. case sensitive
+
+```
+
+txt = "Come and clean the chaos in your closet"
+print(txt.replace("c", "k"))
+
+```
+
+=> Come and klean the khaos in your kloset
+
+- these functions returnsa value. doesn't modify the text itself, just return something
+
+- if we use an = sign to assign whatever is returned, this will modify it
+
+```
+txt = "Hello Trina"
+txt.replace("e", "a")
+print(txt)
+```
+
+=> Hello Trina
+vs.
+
+```
+txt = "Hello Trina"
+txt = txt.replace("e", "a")
+print(txt)
+
+```
+
+=> Hallo Trina
+
+```
+txt = txt.upper()
+print(txt)
+
+```
+
+=> HALLO TRINA
