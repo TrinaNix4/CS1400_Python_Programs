@@ -723,3 +723,48 @@ num = random.randrange(1, 5)
 print(num)
 
 ```
+
+# Strings are a list
+
+```
+letters = "ABCDEFG"
+print(letters[1])
+
+```
+
+=> B ; we start counting at 0
+
+```
+print (letter[3:6]) prints starting at 3, but not including 6
+=> D E F
+```
+
+# Strings Length
+
+```
+word = input("Enter a word: ")
+wordLen = len(word)
+print(word, "is", wordLen, "letter long")
+
+```
+
+=> Enter a word: Happy
+Happy is 5 letters long
+
+# Multi line string
+
+if you want to do a multi line string or embed quotes inside of a string
+
+use triple quotes to start and end string
+
+```
+
+txt = """She said, "Knock knock?" He replied, "Who's There?" """
+print(txt)
+
+```
+
+=> She said, "Knock knock?"
+He replied, "Who's there?"
+
+# Strings Case
