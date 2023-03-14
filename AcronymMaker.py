@@ -6,7 +6,7 @@
 print("Acronym Maker")
 
 sentence = input("Enter a sentence, or q to quit: ")
-
+pos = 0
 acronym = sentence[0]
 # so long as pos is greater or equal to 0, keep repeating this code 
 while pos >= 0:
@@ -18,4 +18,5 @@ while pos >= 0:
       # add the letter onto our acronym
       acronym += sentence[pos]
   
-  print("Acronym: ", acronym)
+  #prints our acronym in upper case 
+  print("Acronym: ", acronym.upper())
