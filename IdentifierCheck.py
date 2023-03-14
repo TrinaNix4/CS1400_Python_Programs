@@ -13,6 +13,10 @@ varName = ""
 while varName != 'q':
     varName = input("Enter a variable name, or q to quit: ")
 
+    if varName == 'q':
+        print("Exiting program. ")
+        break
+
 # check if spaces in user-entered name and check if it begins with a letter
     if ' ' in varName or not varName[0].isalpha():
         print("Variable name is illegal! Variable name must begin with a letter and must not contain any spaces.")
