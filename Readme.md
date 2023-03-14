@@ -851,3 +851,61 @@ print(txt)
 ```
 
 => HALLO TRINA
+
+# Slicing strings
+
+- doesn't modify original text
+
+```
+txt = "ABCDEFG"
+print(txt[1: 3]) //up to but not including 3.
+
+```
+
+=> BC (1 and 2 )
+
+# Slice from the beginning
+
+```
+txt = "ABCDEFG"
+print(txt[:3])
+```
+
+=> ABC
+
+# Strip: Remove whitespace
+
+- removes any extra spaces
+
+```
+txt = "     A     "
+txt = txt.strip()
+print(txt, "END:)
+
+```
+
+=> A END
+
+# Concatenating
+
+```
+txt1 = "ABC"
+txt2 = "DEF"
+txt3 = txt1 + txt2
+print(txt3)
+
+```
+
+=> ABCDEF
+
+# Concatenating Numbers
+
+```
+txt = "ABC"
+num = 42
+final = txt + num
+print(final)
+
+```
+
+=> ABC42
