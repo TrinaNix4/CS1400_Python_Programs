@@ -1112,6 +1112,7 @@ print(mylist)
 
 # add 1 to each item in the list
 
+```
 mylist = [ 1, 2, 3, 4, 5]
 for i in range (len(mylist))
 mylist[i] = mylist[i] + 1
@@ -1121,7 +1122,77 @@ print (mylist)
 
 [2, 3, 4, 5, 6]
 
+# Counters
 
-
+- variables that keeps getting added to
 
 ```
+data = [13, 12, 18, 11]
+sum = 0
+for i in range(len(data)):
+  sum += data[i]
+print(sum)
+
+```
+
+=> 54
+
+- have a for loop that iterates through the array then have some sort of variable that performs a calculation on every element in the array
+
+# Sorting word lists
+
+- putting the values in order; sort alphanumerically
+
+```
+mylist = ['elderberry', 'apple', 'dragonfruit', 'cherry', 'banana']
+mylist.sort()
+print(mylist)
+
+```
+
+=> ['apple', 'banana', 'cherry', 'dragonfruit', 'elderberry']
+
+# sorting number lists
+
+- putting the values in order
+
+```
+intlist = [6, 3, 5, 2, 9]
+intlist.sort(reverse = True);
+print(intlist)
+
+```
+
+=> [9, 6, 5, 3, 2]
+
+# list comprehension
+
+- shorter syntax for creating a new list
+
+- long way
+
+```
+lst = []
+for i in range(10):
+  lst.append(i)
+
+```
+
+=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+- short way
+
+```
+lst = [i for i in range(10)]
+
+```
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+
+```
+allPeople = [["Kim", 21]], ["Rosie", 7], ["Frank", 66]]
+adults = [x for x in allPeople if x[1] > 20]
+
+```
+
+[['kim', 21], ['frank', 66]]
