@@ -958,10 +958,32 @@ print(mylist[1])
   print(mylist)
   ```
 
-```
 => ['yam', 'banana', 'zucchini']
 
+# adding/appending a list
 
+- append allows you to add to a list
+
+```
+  mylist = ["apple", "banana", "cherry"]
+mylist.append("dragonfruit")
+print(mylist)
 
 
 ```
+
+=> ['apple', 'banana', 'cherry', 'dragonfruit']
+
+# declaring an empty list
+
+- you can start with an empty list
+
+```
+mylist = []
+
+mylist.append("dragonfruit")
+print(mylist)
+
+```
+
+=> ['dragonfruit']
