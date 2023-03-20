@@ -946,3 +946,22 @@ print(mylist[1])
 ```
 
 => banana
+
+# changing a value in a list
+
+- square brackets can change a value
+
+  ```
+  mylist = ["apple", "banana", "cherry"]
+  mylist[2] = "zucchini"
+  mylist[0] = "yam"
+  print(mylist)
+  ```
+
+```
+=> ['yam', 'banana', 'zucchini']
+
+
+
+
+```
