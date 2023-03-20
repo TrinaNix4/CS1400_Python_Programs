@@ -987,3 +987,141 @@ print(mylist)
 ```
 
 => ['dragonfruit']
+
+# Inserting
+
+- append always appends to the end
+- insert allows you to specify where you want to add the item
+- adjusts the index of the rest of the list
+
+```
+  mylist = ["apple", "banana", "cherry"]
+mylist.insert(1, "apricot")
+print(mylist)
+
+```
+
+=> ['apple', 'apricot', 'banana', 'cherry']
+
+# removing by item
+
+- allows you to remove from the list
+
+```
+  mylist = ["apple", "banana", "cherry"]
+mylist.remove("cherry")
+print(mylist)
+
+```
+
+=> ['apple', 'banana', 'dragonfruit']
+
+# removing by index
+
+- pop allows you to remove a particular position
+
+```
+  mylist = ["apple", "banana", "cherry", "dragonfruit"]
+  mylist.pop(3)
+  print(mylist)
+
+  intlist = [2, 4, 6, 8]
+  intlist.pop(2)
+  print(intlist)
+
+```
+
+['apple', 'banana', 'cherry']
+[2, 4, 8]
+
+# removing a last item
+
+- pop allows you to remove a particular position; if not specified then it removes at the end
+
+# clear
+
+- clears the entire list of contents
+
+```
+    mylist = ["apple", "banana", "cherry"]
+mylist.clear()
+print(mylist)
+
+```
+
+=> []
+
+# iterate a list
+
+- use a loop to access each item in the list
+
+```
+  mylist = ["apple", "banana", "cherry"]
+for x in mylist:
+  print(x)
+
+```
+
+apple
+banana
+cherry
+
+# iterate a list
+
+- the only way to actually change the value is to use the square brackets
+
+```
+  mylist = ["apple", "banana", "cherry"]
+  for x in mylist:
+      x = "zucchini"
+  print(mylist)
+
+```
+
+apple
+banana
+cherry
+
+# iterate by index
+
+- use a loop to access each item in the list
+
+```
+mylist = ["apple", "banana", "cherry"]
+
+for i in range(len(mylist))
+  print(mylist[i])
+
+```
+
+apple
+banana
+cherry
+
+- now to change the list, can use square brackets in the same type of list as above
+
+```
+mylist = ["apple", "banana", "cherry"]
+for i in range(len(mylist))
+  mylist[i] = "zucchini"
+print(mylist)
+
+```
+
+=> ['zucchini', 'zucchini', 'zucchini']
+
+# add 1 to each item in the list
+
+mylist = [ 1, 2, 3, 4, 5]
+for i in range (len(mylist))
+mylist[i] = mylist[i] + 1
+print (mylist)
+
+```
+
+[2, 3, 4, 5, 6]
+
+
+
+
+```
