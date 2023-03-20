@@ -909,3 +909,40 @@ print(final)
 ```
 
 => ABC42
+
+# Lists
+
+- store multiple items in a single variable
+- use square brackets to identify it
+
+```
+mylist = ["apple", "banana", "cherry"]
+print(mylist)
+
+```
+
+=> ["apple", "banana", "cherry"]
+
+can include integers, floats, or a mixed list of all
+
+# length function
+
+- can use len to determine the number of items in a list
+
+```
+mylist = ["apple", "banana", "cherry"]
+print(len(mylist))
+
+```
+
+=> 3
+
+# accessing a single item in a list
+
+```
+mylist = ["apple", "banana", "cherry"]
+print(mylist[1])
+
+```
+
+=> banana
