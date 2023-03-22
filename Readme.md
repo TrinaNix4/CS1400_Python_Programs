@@ -1196,3 +1196,38 @@ adults = [x for x in allPeople if x[1] > 20]
 ```
 
 [['kim', 21], ['frank', 66]]
+
+# Tuple
+
+- stores multiple items in a variable
+- unchangeable, cannot add or remove
+- ordered: defined order that cannot change
+- round brackets
+
+```
+mylist = ('apple', 'banana', 'cherry')
+print(mylist)
+
+```
+
+# unpacking tuples
+
+unpacks the tuple into individual variables
+
+```
+contact = ('smith', 'jane', '123 fake street', 'ogden', 'ut', '84405')
+lname, fname, adrss, city, state, zip, = contact
+print(state)
+
+```
+
+=> UT
+
+```
+contact = ('smith', 'jane', '123 fake street', 'ogden', 'ut', '84405')
+lname, fname, *adrss = contact
+print(adrss)
+
+```
+
+=> ['123 fake street', 'ogden', 'ut', '84405']
