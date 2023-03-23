@@ -1231,3 +1231,91 @@ print(adrss)
 ```
 
 => ['123 fake street', 'ogden', 'ut', '84405']
+
+# Dictionary
+
+- stores data with a key. they key is paired with the value
+- no duplicate keys
+- duplicate values are allowed
+
+- use curly brackets
+  colon seperate key-value pairs
+
+```
+myDict = {'red': 'apple', 2: 'banana', 3: 'cantaloupe'}
+print(myDict)
+
+```
+
+=> {1: 'apple', 2: 'banana', 3: 'cantaloupe'}
+
+# Length
+
+- the difference between a list and a dictionary is when you find len, it tells you how many key,value pairs there are
+
+# Accessing a single item
+
+- use the key as an index
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+print(myDict['red'])
+print(myDict['orange'])
+
+```
+
+=> apple
+=> cantaloupe
+
+# changing a value
+
+- the key can adda value
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+myDict["blue"] = "blueberry"
+print(myDict)
+```
+
+{'red': 'apple', 'yellow': 'banana', 'orange':'cantaloupe', 'blue':'blueberry'}
+
+# udpate a value
+
+-cannot have duplicate values so it will just replace whatever is there, or update it
+
+# Declaring an empy dictionary
+
+- you can start with an empty list using dict()
+
+```
+myDict = dict()
+myDict["red"] = "Apple"
+myDict["yellow"] = "banana"
+```
+
+# removing an item
+
+- Pop() allows you to remove from the list by key;
+- removes the last one if you don't specify
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+myDict.pop("red")
+print(myDict)
+```
+
+=> {'yellow': 'banana', 'orange': 'cantaloupe'}
+
+# deleting all items
+
+- clear method allows you to remove all items
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+myDict.clear()
+print(myDict)
+```
+
+=> {}
+
+# iterate the keys
