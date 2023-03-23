@@ -1403,7 +1403,7 @@ myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
 if 'red' in myDict:
   print("Red is a key")
 
-if 'blue not in myDict:
+if 'blue' not in myDict:
   print('Blue is not a key')
 
 ```
@@ -1470,6 +1470,7 @@ if 'rat' not in shelterAnimals:
 print(shelterAnimals)
 print(originalShelter)
 ```
+
 Shelter full.
 No rats.
 {'dog': 51, 'cat': 35, 'bunny': 14, 'ferret': 2, 'snake': 4}
