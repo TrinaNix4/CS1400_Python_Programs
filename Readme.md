@@ -1410,3 +1410,20 @@ if 'blue not in myDict:
 
 => Red is a key
 => Blue is not a key
+
+# Zip
+
+- Combines 2 lists into one dictionary
+
+```
+days = ["sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+temp_C = [30.5, 32.6, 31.8, 33.4, 29.8, 30.2, 29.9]
+
+weekly_temp = {day:temp for (day,temp) in zip(days, temp_C)}
+print(weekly_temp)
+
+```
+
+{'Sunday': 30.5, 'Monday': 32.6, 'Tuesday': 31.8, 'Wednesday': 33.4, 'Thursday':29.8, 'Friday':30.2, 'Saturday': 29.9}
+
+
