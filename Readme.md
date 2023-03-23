@@ -1319,3 +1319,94 @@ print(myDict)
 => {}
 
 # iterate the keys
+
+- keys returns the keys
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+for x in myDict.keys():
+  print(x)
+
+```
+
+=> red
+yellow
+orange
+
+# iterate by values
+
+- use a loop to access each item in the list
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+for x in myDict.values():
+  print(x)
+
+```
+
+=> apple
+banana
+cherry
+
+# iterate both
+
+- items access the dictionary items
+
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+for k, v in myDict.items():
+print(k,v)
+
+=> red apple
+yellow banana
+orange cantaloupe
+
+# shallow copy
+
+- shallow copy uses = operator; it's a literal copy. 2 different names for the same item so what is done to one item will be done to the other
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+fruit = myDict
+fruit.pop('red')
+print(myDict)
+print(fruit)
+
+```
+
+=> {'yellow': 'banana', 'orange':'cantaloupe'}
+=> {'yellow': 'banana', 'orange':'cantaloupe'}
+
+# deep copy
+
+- uses the copy() function; creates an actual physical copy so 2 different lists with 2 different names
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+fruit = myDict.copy()
+fruit.pop('red')
+print(myDict)
+print(fruit)
+
+```
+
+=> {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+
+=> {'yellow': 'banana', 'orange':'cantaloupe'}
+
+# Search
+
+- use in, or not in to determine if a key exists
+
+```
+myDict = {'red': 'apple', 'yellow': 'banana', 'orange': 'cantaloupe'}
+
+if 'red' in myDict:
+  print("Red is a key")
+
+if 'blue not in myDict:
+  print('Blue is not a key')
+
+```
+
+=> Red is a key
+=> Blue is not a key
