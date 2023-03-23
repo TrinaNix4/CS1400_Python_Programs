@@ -69,14 +69,15 @@ while True:
 # score
     for i in range(5):
         if dice[i] != 2 and dice[i] != 5:
+            # rollScore variable to keep track of a 0 score and exit program
             rollScore += dice[i]
     score += rollScore
 # print the result of roll
     print('You rolled: ', dice)
 # print the score
     print("Score: ", score)
-# since it doesn't add 2s or 5s to score, when score = 0 all
+# since it doesn't add 2s or 5s to score, when rollScore = 0 all
 # dice are stuck in the mud
     if rollScore == 0:
-        print("All dice are stuck in the mud. Game over")
+        print("All dice are stuck in the mud. Thanks for playing!")
         break
