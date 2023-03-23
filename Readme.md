@@ -1454,3 +1454,23 @@ blue 2
 black 1
 old 1
 new 1
+
+```
+shelterAnimals = {"dog": 49, "cat": 38, "bunny": 14}
+originalShelter = shelterAnimals.copy()
+shelterAnimals['dog'] += 2
+shelterAnimals["ferret"] = 2
+shelterAnimals["cat"] -= 3
+shelterAnimals["snake"] = 4
+
+if shelterAnimals['dog'] > 50:
+  print("Shelter full.")
+if 'rat' not in shelterAnimals:
+  print("No rats.")
+print(shelterAnimals)
+print(originalShelter)
+```
+Shelter full.
+No rats.
+{'dog': 51, 'cat': 35, 'bunny': 14, 'ferret': 2, 'snake': 4}
+{'dog': 49, 'cat': 38, 'bunny': 14}
