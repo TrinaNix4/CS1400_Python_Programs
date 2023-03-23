@@ -1426,4 +1426,31 @@ print(weekly_temp)
 
 {'Sunday': 30.5, 'Monday': 32.6, 'Tuesday': 31.8, 'Wednesday': 33.4, 'Thursday':29.8, 'Friday':30.2, 'Saturday': 29.9}
 
+- the following code segment will count how many times each word occurs in the given text
 
+```
+text = "one fish two fish red fish blue fish black fish blue fish old fish new fish"
+
+lst = text.split()
+wrdList = dict()
+print(lst)
+
+for x in lst:
+    if x not in wrdList:
+        wrdList[x] = 1
+    else:
+        wrdList[x] += 1
+
+for i in wrdList:
+    print (i, wrdList[i])
+```
+
+['one', 'fish', 'two', 'fish', 'red', 'fish', 'blue', 'fish', 'black', 'fish', 'blue', 'fish', 'old', 'fish', 'new', 'fish']
+one 1
+fish 8
+two 1
+red 1
+blue 2
+black 1
+old 1
+new 1
