@@ -56,7 +56,7 @@ num_of_rolls = int(input("How many dice rolls would you like to simulate?"))
 
 # initialize dictionary with initial value set to 0 to keep track of total for each number thrown:
 # key = sum of 2 dice (2-12)
-# value = total number of throws that equal the sum of die1 and die2
+# value = total number of rolls that equal the key
 totals = {}
 
 
@@ -90,5 +90,4 @@ for i in range(2, 13):
     if i in totals:
         percentage = int(((totals[i]/num_of_rolls)*100))
         print(i, ":", "*" * percentage)
-
 print("Thank you for using the dice throwing simulator. Goodbye!")
