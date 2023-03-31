@@ -1484,3 +1484,14 @@ No rats.
   - errors during execution
 - use a try/except to help with dangerous code
 - allows for continued execution
+
+try:
+#excecute code that could be dangerous
+except:
+#what happens if exception is encountered.
+
+- try block encountered
+- error encountered, except block executed
+  - any lines of code after exception in try are skipped
+- if no errors, except block skipped
+- program continues as normal after try and except block executed
