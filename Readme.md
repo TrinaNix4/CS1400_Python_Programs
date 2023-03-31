@@ -680,9 +680,7 @@ print(num)
 * returns the min or max value
 
 ```
-import math
-print (max(2, 5, 3, 7, 9))
-print (min(2, 5, 3, 7, 9))
+
 
 ```
 
@@ -1475,3 +1473,14 @@ Shelter full.
 No rats.
 {'dog': 51, 'cat': 35, 'bunny': 14, 'ferret': 2, 'snake': 4}
 {'dog': 49, 'cat': 38, 'bunny': 14}
+
+# Try and except
+
+# Exception Handling
+
+- want to make robust code that handles errors it encounters
+- run time errors - crashes entire program with no recovery
+- exception handling
+  - errors during execution
+- use a try/except to help with dangerous code
+- allows for continued execution
