@@ -1495,3 +1495,15 @@ except:
   - any lines of code after exception in try are skipped
 - if no errors, except block skipped
 - program continues as normal after try and except block executed
+
+e.g.
+
+try:
+#dangerous code
+age = input("What is your age?")
+#causes an error if you type the word 'twenty'
+int(age) \* 10
+except:
+#handle the error so the program doesn't crash
+#print a message
+print("invalid input")
