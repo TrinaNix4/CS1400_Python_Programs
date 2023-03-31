@@ -1485,10 +1485,12 @@ No rats.
 - use a try/except to help with dangerous code
 - allows for continued execution
 
+```
 try:
 #excecute code that could be dangerous
 except:
 #what happens if exception is encountered.
+```
 
 - try block encountered
 - error encountered, except block executed
@@ -1498,6 +1500,7 @@ except:
 
 e.g.
 
+```
 try:
 #dangerous code
 age = input("What is your age?")
@@ -1507,3 +1510,25 @@ except:
 #handle the error so the program doesn't crash
 #print a message
 print("invalid input")
+```
+
+# Raising Exceptions
+
+- if we want to force an exception to happen that usually doesn't cause an error
+
+- format:
+
+```
+try:
+#dangerous code
+age = input("What is your age?")
+#won't cause an error if enter -5, but we want it to throw an error because -5 is not a real age
+int(age) \* 10
+ if age <= 0:
+  raise ValueError('Invalid age')
+
+except ValueError as except:
+#handle the error so the program doesn't crash
+#print the message passed when the error was raised
+print(except)
+```
