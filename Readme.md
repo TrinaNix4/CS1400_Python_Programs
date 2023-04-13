@@ -1653,3 +1653,14 @@ for c in colors:
   - open the file for appending. if file does not exist then the file is created. writes are added to end of existing file contents
 
   * - can be added to the end of a mode which allows for both reading and writing
+
+- an exception occurs if file is not found
+- use a try when working with files
+
+```
+try:
+# open the file - if it does not exist it will cause an exception
+  myFile = open('myData.txt', 'r')
+except FileNotFoundError as err:
+  print(err)
+```
