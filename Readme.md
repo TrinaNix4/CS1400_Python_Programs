@@ -1598,3 +1598,23 @@ for line in f:
 f.close()
 
 ```
+
+# writing files
+
+- we can use a file to store data; bigger companies may use a database
+
+- steps:
+
+  - open the file
+  - write to the file
+  - close the file
+
+  ```
+  #open function, file name, mode -w for write
+  f = open('textFile.txt', 'w')
+
+  f.write('purple\n')
+  f.write('orange\n')
+  f.close()
+
+  ```
