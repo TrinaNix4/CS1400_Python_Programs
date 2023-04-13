@@ -1618,3 +1618,38 @@ f.close()
   f.close()
 
   ```
+
+- write to a file from a list
+
+```
+# have a list of colors
+colors = [purple, orange, yellow]
+# open the file to write
+f = open('textFile.txt', 'w')
+
+#use for loop to write to the file and write each of the colors to a new line using \n to ensure each color is on its own line
+for c in colors:
+  #write to file
+  f.write(c + '\n')
+
+  f.close()
+
+```
+
+# Using exceptions with Files
+
+- common modes and common errors associated with them
+
+* 'r'
+
+  - open file for reading. if file doesn't exist, exception is thrown
+
+  * 'w'
+
+  - open file for writing. if file does not exist then file is created. contents of an existing file are overwritten
+
+  * 'a'
+
+  - open the file for appending. if file does not exist then the file is created. writes are added to end of existing file contents
+
+  * - can be added to the end of a mode which allows for both reading and writing
