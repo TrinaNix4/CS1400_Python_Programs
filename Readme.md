@@ -1532,3 +1532,69 @@ except ValueError as except:
 #print the message passed when the error was raised
 print(except)
 ```
+
+# Reading from files
+
+- common task in programming is to read info from a file
+- steps:
+  - open the file
+  - read from the file
+  - close the file
+
+```
+# open function, file name, mode -r for read
+f = open('txtFile.txt', 'r')
+
+lines = f.read()
+f.close()
+
+```
+
+# sequential access vs random access
+
+- sequential - files are read sequentially
+
+- random access - go directly to a spot within the file
+
+to read one line at a time insetad of reading the entire file we can use:
+
+- .readline()
+
+- tracks which line it is on
+
+```
+f = open('textFile.txt', 'r')
+line1 = f.readline()
+line2 = f.readline()
+f.close()
+
+```
+
+- above could be inefficient if there are a lot of lines to read so we can use a for loop to read each line in the file
+
+```
+f = open('textFile.txt', 'r')
+
+for line in f:
+ print(line)
+
+f.close()
+
+```
+
+- reading into a list - may want to keep the info instead of storing it temporarily. in case we want to manipulate it
+
+```
+myList = []
+
+f= open('textFile.txt', 'r')
+
+for line in f:
+  # strip off new line character
+  line = line.strip()
+  # add to list
+  myList.append(line)
+
+f.close()
+
+```
