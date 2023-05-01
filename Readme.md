@@ -1842,6 +1842,24 @@ class Calendar:
 
 * the parameter of self is a reference to the instance of the class; self is bound to myCalendar. the method's code can use self to access the instance attributes or other methods 
 
+* can use setters and getters to make a sort of interface to interact with the class 
+
+```
+
+def set_month(self, incomingMonth):
+  self.name_of_month = incomingMonth
+
+def get_month(self):
+  return self.name_of_month
+
+# main program
+myCalendar = Calendar()
+month = input('What is name of the month?')
+days = input('how many days in the month?')
+myCalendar.set_month(month)
+print("month' + myCalendar.get_month())
+
+```
 
 
 
