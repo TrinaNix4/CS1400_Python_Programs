@@ -1664,3 +1664,16 @@ try:
 except FileNotFoundError as err:
   print(err)
 ```
+
+# User-defined functions
+ 
+ - programs may repeat code causing unecessary redundancy
+ - creating a function can eliminate this
+ - function: 
+  - grouping of statements with a common purpose
+  - helps address a specific task 
+  - for example:
+    - calcuations
+    - rolling die
+    - printing an output 
+
