@@ -1677,3 +1677,67 @@ except FileNotFoundError as err:
     - rolling die
     - printing an output 
 
+* functions - named series of statements
+function definition - the actual name of the function and the statements contained within it
+
+* def - the keyword used to create a new function
+
+* function call - (calc_area()) - an invocation of the functions name this means the function will get executed 
+
+* if the function is never called, the statements would never be ran 
+
+
+
+* parameter - input the function takes specified in the function definition e.g. def sum_nums(num1, num2)
+
+* python has dynamic typing - don't have to specify what type of parameters are as you might have to in other languages which are static typing
+
+* in dynamic. the same function could represent an int and a string
+
+# why functions? 
+- readability
+- modular development -  
+- avoid redundancy
+
+# function are objects
+ - can be passed as arguments
+
+ # object scope
+
+  - variables created inside the function are only available within the function
+    - local variables
+
+  - variable defined outside of a function- accessible to every function and the main program
+    - global variable
+
+
+e.g name and number declared inside the function so not accessible outisde of function (in the print statement)
+```
+def assign_player_number():
+  name = input("what is your name?")
+  number = input('what is your number?')
+# return the name and number
+
+#main program
+assign_player_number()
+
+print(name, number)
+```
+
+# can use keyword 'global' to specify that we are referring to the global variable and not a local variable 
+```
+team_name - 'rockies'
+
+def assign_player_number():
+  global team_name
+  team_name - input('what is the team's name?')
+  name = input('what is the player's name?')
+  number = input("what is the player's number?')
+  print (team_name, name, number)
+
+  #main program
+  assign_player_number()
+  print(team_name)
+  ```
+- will result in changing the global variable to user input
+
