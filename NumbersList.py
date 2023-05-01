@@ -4,10 +4,10 @@ try:
     numbersFile = open('numbers.txt', 'r')
 
     # complete the for loop to continue reading so long as the file has more values
-    for n in numbers:
+    for n in numbersFile:
         # complete the num statement below to store the next int in the file into num
         # remember by default the number will come from the file as a string and need to be converted to an int
-        num =
+        num = int(n.strip())
         # this line prints out the num to make sure it is working
         print(num)
         # this line of code sums up all the numbers
@@ -17,7 +17,7 @@ try:
     print(sum)
 
     # close the file
-
+    numbersFile.close()
 
 except Exception as err:
     print(err)
