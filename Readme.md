@@ -1741,3 +1741,80 @@ def assign_player_number():
   ```
 - will result in changing the global variable to user input
 
+# Classes
+
+- a function is one very specific task
+- a class is a group of those tasks and attributes that are related to one another
+
+- in the real world we think about things on higher level and we group items together 
+  - instead of metals, woods, and fibers that make up an item, we group those items together as cars, hotels, or restaurants on a higher level 
+
+- blueprint for what it may become
+- specifics are not set but it gives an outline for those items
+
+- university -> weber state
+university is the class and weber state is an instance of the class
+- car -> nissan
+- planet -> saturn 
+
+- class object and we can create copies or isntances of that object
+- restaurant class and we can break it down into smaller tasks or attributes
+
+- we can pull in the 'restaurant' class and not have to pay attention to all the lower level details - they are hidden  i.e.  making a reservation at a restaurant 
+
+- this is called abstraction - user is interacting at a higher level and not having to deal with all the internal lower level 
+
+to use a class: 
+class keyword - create an object type containing groups of related variables and functions 
+
+```
+class Calendar: 
+  def ...
+
+  ```
+
+  # instantiation
+
+  - calling the class similar to calling a function "instantiate a class" 
+
+  my_calendar = Calendar()
+
+  * classes are upper case so we can easily differentiate when reading the code 
+
+  - creates an instance of the class which exists as an object in memory
+
+  * when an instance is created the _init_ method is automatically ran 
+    - similar to a constructor in other languages
+    - allows for defaults to be set or setting the initial state of the instance
+    - functions inside a class are referred to as methods
+    - the _init_method has a parameter "self" which references teh isntance created 
+
+    - dot notation is used to reference the attributes of the class
+
+    * instance and instantiation 
+    ```
+    myCalendar = Calendar() (instantiated)
+
+    ```
+
+    myCalendar is an instance - an individual object - myCalendar now refers to an instance of the Calendar class  
+    - all the code contained within the Calendar() class is now held within myCalendar in memory
+
+    - instantiation - calling the class
+    - instantiation calls the init method automatically
+
+    ```
+    class Calendar:
+      def __init__(self):
+        self.name_of_month = "NotSetYet"
+        self.days_in_month = 0 
+    
+    myCalendar(Calendar())
+    print(myCalendar.name_of_month)
+
+    ```
+
+    - dot notation - access attributes within the class
+
+    
+
