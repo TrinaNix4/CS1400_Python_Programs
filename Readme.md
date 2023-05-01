@@ -1816,5 +1816,32 @@ class Calendar:
 
     - dot notation - access attributes within the class
 
-    
+    - functions within a class are known as instance methods
+
+    - __init__ is also a method but it is a special method __ identify special methods that have defined behaviors 
+
+    ```
+
+    class Calendar:
+
+      def __init__(self):
+        self.name_of_month = "NotSetYet'
+        self.days_in_month = 0 
+
+        # instance method/function (user defined)
+      def print_month_info(self):
+        print(self.name_of_month)
+        print(self.days_in_month)
+
+    myCalendar = Calendar()
+    myCalendar.name_of_month = 'January'
+    myCalendar.days_in_month = 31
+    myCalendar.print_month_info()
+
+    ```
+
+* the parameter of self is a reference to the instance of the class; self is bound to myCalendar. the method's code can use self to access the instance attributes or other methods 
+
+
+
 
