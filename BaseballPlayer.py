@@ -4,11 +4,7 @@ class BaseballPlayer:
     def __init__(self):
         self.name = input("What is the player's name?")
         self.number = input("What is the player's number?")
-        self.name = "none"
-
-
-# being passed as arguments and being set here as parameters of this method
-
+        self.batting_avg = 0
 
     def calculate_batting_avg(self):
         hits = int(input("How many hits did the player get?"))
@@ -16,6 +12,8 @@ class BaseballPlayer:
         self.batting_avg = round(hits / at_bats, 3)
         return self.batting_avg
 
+
+2
 
 # main program
 print("Welcome to the Player Tracker!")
