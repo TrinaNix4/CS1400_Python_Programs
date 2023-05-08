@@ -1861,5 +1861,34 @@ print("month' + myCalendar.get_month())
 
 ```
 
+# multiple instances of a class can be used in a program 
+
+```
+class Dog: 
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age 
+
+  def calculate_age_human_years(self)"
+    return self.age * 7
+
+# main program
+socks = Dog('Socks', 5)
+fido = Dog('Fido', 2)
+print(socks.age)
+print(socks.calculate_age_human_years())
+
+```
+
+- a class is a blueprint; gives us an idea to follow to create something more specific
+
+- every Dog has a specific name and age that is associated with that specific dog
+  - we can create several instances of our class
+
+* in our program above, we created an instance called 'Socks' and we passed in 'socks' and 5 to our name and age in __init__ method
+ - we set the instance attributes
+ - instance attributes are only associated with the 'socks' instance
+ - we can make as many instances as we want of the 'Dog' class 
+ 
 
 
