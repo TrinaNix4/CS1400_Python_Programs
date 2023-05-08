@@ -13,7 +13,7 @@ class RockPaperScissors:
             if user_choice in self.choices:
                 return user_choice
             else:
-                print("Invalid choice. Please try again.")
+                print("Sorry, '", user_choice, "' is not a valid entry.")
 # randomly generate a choice of Rock, Paper, or Scissors for the cpu;
 # return a string containing the cpu choice
 
@@ -35,7 +35,6 @@ class RockPaperScissors:
             return 1
         else:
             return 2
-
 
         # Main Program
 rps = RockPaperScissors()  # ***YOUR CLASS
