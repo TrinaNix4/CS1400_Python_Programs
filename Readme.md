@@ -1889,6 +1889,48 @@ print(socks.calculate_age_human_years())
  - we set the instance attributes
  - instance attributes are only associated with the 'socks' instance
  - we can make as many instances as we want of the 'Dog' class 
- 
+
+# Class Object and Attributes Cont'd 
+
+- class object vs instance objects
+  - class object creates instance objects 
+  - we have a class we program, then we create instances of that class (a class object works like a factory to create instance objects)
+
+- class attribute - shared by all instances of that class
+- instance attribute - unique to each instance 
+* good practice to avoid using the same names for these 
+
+e.g. 'Dog' class - dog has a unique name and age so that's an instance attribute 
+
+* class attributes appear right after the keyword class
+```
+class TrackMeet:
+  # class attributes that are shared with each instance of the class
+  race_100 = 100
+  race_200 = 200
+  race_400 = 400
+
+  def __init__(self):
+    self.time = 0
+    self.race = 0
+  
+  def adjust_for_wind(self, wind):
+    return self.time + wind
+
+runner1 = TrackMeet()
+runner1.time = 11.25
+runner1.race = runner1.race_100
+
+runner2 = TrackMeet()
+runner2.time = 11.1
+runner2.race = runner2.race_100
+
+```
+ - time and race are instance attributes that are only applicable and unique to runner1 and runner2
+
+- class attributes,  however, would be shared by both instances of the class
+
+* instance attributes are unique and describe the specific thing
+* class attibutes help define the blueprint
 
 
