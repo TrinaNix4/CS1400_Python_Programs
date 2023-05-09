@@ -43,9 +43,11 @@ class BotPlayer:
         self.life_points -= damage
 
 # return a string of botPlayer object that shows life points and strength
-# use str() to convert integer to string so it can be concatenated with the string
+# use str() to convert integer to string so it can be concatenated with the string and printed for the user to see
     def __str__(self):
         return "Life Points: " + str(self.life_points) + "\nStrength: " + str(self.strength)
+
+# use while loop so game repeats unless user presses q to quit.
 
 
 def battle(bot1, bot2):
