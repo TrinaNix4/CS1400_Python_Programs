@@ -1,5 +1,3 @@
-# This is a comment
-print("Hello World!")
-
-print(9)
-print(9, 'words')
+mystery = input("Enter a word")
+end = len(mystery)
+print("Length: ", end)
