@@ -1,3 +1,4 @@
+"""
 print("Welcome to the Treehouse Museum!")
 
 print("What type of party Package would you like: ")
@@ -23,3 +24,28 @@ elif party_type == 2 and member == 2:
     cost = 350
 
 print("Your cost would be $", cost)
+"""
+
+# get input from user
+sentence = input("Enter the sentence: ")
+num_times = int(input("Enter the number of time to be printed: "))
+
+# print the sentence the number of times the user inputs
+for i in range(1, num_times + 1):
+    print(str(i) + ': ' + sentence)
+
+
+###############################################
+# Program 2 by Trina Nixon
+print("Baggage Check")
+
+# Get input from the user
+length = int(input("Enter the length measurement of your luggage: "))
+width = int(input("Enter the width measurement your luggage: "))
+height = int(input("Enter the heighth measurement of your luggage: "))
+
+# Check if the luggage item meets the size requirements
+if length <= 9 and width <= 14 and height <= 22:
+    print("Acceptable carry-on item")
+else:
+    print("Not acceptable as a carry-on item")
