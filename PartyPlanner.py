@@ -26,7 +26,9 @@ elif party_type == 2 and member == 2:
 print("Your cost would be $", cost)
 """
 
-# get input from user
+# Program 1 by Trina Nixon
+print("Help Bart Simpson! Use this program to write his sentences for him.")
+# get input from user/ sentence and number of times printed
 sentence = input("Enter the sentence: ")
 num_times = int(input("Enter the number of time to be printed: "))
 
